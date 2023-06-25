@@ -15,8 +15,16 @@ const Footer = () => {
           &copy; All Rights Reserved
         </span>
         <div className="flex items-center lg:py-2 ">
-          Built With<span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>by&nbsp;
-          <Link href="mailto:saitej4865@gmail.com" target="_blank" className="underline underline-offset-2">
+          Built With
+          <span className="text-primary dark:text-primaryDark text-2xl px-1">
+            &#9825;
+          </span>
+          by&nbsp;
+          <Link
+            href="https://kssaitej.netlify.app"
+            target="_blank"
+            className="underline underline-offset-2"
+          >
             K S Sai Teja{" "}
           </Link>
         </div>
