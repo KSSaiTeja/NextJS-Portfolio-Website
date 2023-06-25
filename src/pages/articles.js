@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import article1 from "../../public/images/articles/article1.jpg";
-import article2 from "../../public/images/articles/article2.jpg";
+import article2 from "../../public/images/articles/article2.png";
 import article3 from "../../public/images/articles/article3.png";
 import article4 from "../../public/images/articles/article4.jpg";
 import article5 from "../../public/images/articles/article5.png";
