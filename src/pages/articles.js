@@ -4,11 +4,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article1 from "../../public/images/articles/article1.jpg";
+import article2 from "../../public/images/articles/article2.jpg";
+import article3 from "../../public/images/articles/article3.png";
+import article4 from "../../public/images/articles/article4.jpg";
+import article5 from "../../public/images/articles/article5.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -83,7 +83,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           src={img}
           alt={title}
           className="w-full h-auto"
-          
+          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
         />
       </Link>
 
@@ -128,6 +129,7 @@ const articles = () => {
               time="9 min read"
               link="/"
               img={article2}
+              
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
