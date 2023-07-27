@@ -60,7 +60,7 @@ const Education = () => {
             info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
           <Details
-            type="Secondary High School"
+            type="Post Primary Schooling in SSC"
             time="2017-2018"
             place="Muncipal Town High School, Rajahmundry, AP."
             info="Relavant Subjects included MS Office, Painting etc.."
