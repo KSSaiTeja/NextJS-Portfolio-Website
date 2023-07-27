@@ -60,10 +60,10 @@ const Education = () => {
             info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
           <Details
-            type="Diploma in Electronics and Communication"
-            time="2018-2021"
-            place="VSM College of Engineering, Ramachandrapuram, AP."
-            info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
+            type="High School in Secondary School Certification"
+            time="2017-2018"
+            place="Muncipal Town High School, Rajahmundry, AP."
+            info="Relavant courses included Physical Education, MS Office."
           />
         </ul>
       </div>
