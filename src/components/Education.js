@@ -14,9 +14,10 @@ const Details = ({ type, time, place, info }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
+        className="flex-shrink-0" // Add this class to prevent it from affecting the layout
       >
         <div>
-          <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+          <h3 className="capitalize justify-between font-bold text-2xl sm:text-xl xs:text-lg">
             {type}
           </h3>
           <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm ">
@@ -46,7 +47,7 @@ const Education = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light  md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        {/* <ul className="w-full flex-col items-center justify-between ml-4 xs:ml-2"> */}
           <Details
             type="Bachelor Of Technology In Electronics and Communication"
             time="2021-2024"
@@ -59,13 +60,13 @@ const Education = () => {
             place="VSM College of Engineering, Ramachandrapuram, AP."
             info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
+        
           <Details
-            type="High School in Secondary School Certification"
+            type="Secondary School Education of Secondary School Certification"
             time="2017-2018"
             place="Muncipal Town High School, Rajahmundry, AP."
             info="Relavant courses included Physical Education, MS Office."
           />
-        </ul>
       </div>
     </div>
   );
