@@ -48,24 +48,22 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor of Technology in Electronics and Communication"
+            type="Bachelor Of Technology In Electronics and Communication"
             time="2021-2024"
-            place="Raghu Engineering College, Visakhapatnam."
-            info="Electronics and Communication Engineering (ECE)."
+            place="Raghu Engineering College, Visakhapatnam, AP."
+            info="Relavant courses included VLSI Design, Digital Signal Processing, Antenna Design etc.."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Diploma in Electronics and Communication"
+            time="2018-2021"
+            place="VSM College of Engineering, Ramachandrapuram, AP."
+            info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Secondary High School"
+            time="2017-2018"
+            place="Muncipal Town High School, Rajahmundry, AP."
+            info="Relavant Subjects included MS Office, Painting etc.."
           />
         </ul>
       </div>
