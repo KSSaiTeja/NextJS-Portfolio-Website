@@ -58,47 +58,47 @@ const Experience = () => {
             position="Intern"
             company="Google Developers Group"
             time="2022"
-            address="Andhra Pradesh, India"
+            address="Andhra Pradesh, India."
             work="
             Working with Google Developers Group was an incredible experience for me. Being associated with Google, one of the leading tech companies globally, added immense credibility to my profile.
+            
             I had the privilege to work on some exciting projects during my GDG internship. From ideation to implementation, I contributed to projects that had a positive impact within the tech community.
             "
           />
 
           <Details
+            position="Bootcamp"
+            company="Microsoft Student Ambassador"
+            time="Summer 2022"
+            address="Andhra Pradesh, India."
+            work="Being a part of the Microsoft Student Ambassador program allowed me to build a thriving tech community on my campus. I organized meetups, hackathons, and coding competitions, fostering an environment of learning and collaboration. Through my leadership role, I empowered others to explore their passion for technology and encouraged them to make a positive impact using Microsoft technologies."
+          />
+
+          <Details
             position="Intern"
-            company="Facebook"
-            time="Summer 2021"
-            address="Menlo Park, CA."
-            work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and share short-form video content, including designing and implementing a new user interface and developing the backend infrastructure to support the feature."
+            company="Amazon Web Services"
+            time="2022"
+            address="Andhra Pradesh, India."
+            work="
+            Collaborated with cross-functional teams to plan and execute AWS projects, ensuring effective communication and coordination throughout the process.
+            Demonstrated strong problem-solving skills while resolving issues related to AWS infrastructure and services, ensuring minimal downtime and smooth operations.
+            "
           />
 
           <Details
-            position="Software Developer"
-            company="Amazon"
-            time="2020-2021"
-            address="Seattle, WA."
-            work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-            as product recommendations and user reviews, and optimizing the app's performance and reliability."
+            position="Intern"
+            company="Robocoupler"
+            time="2023"
+            address="Andhra Pradesh, India."
+            work=" Demonstrated strong problem-solving skills, tackling challenges that arose during projects and making informed decisions to overcome obstacles. Managed time effectively to balance multiple tasks and responsibilities at Robocoupler, ensuring productivity and meeting deadlines."
           />
 
           <Details
-            position="Software Developer Intern"
-            company="Microsoft"
-            time="Summer 2019"
-            address="Redmond, WA."
-            work="Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-            including implementing a new user interface for a system settings panel and optimizing the performance of 
-            a core system component."
-          />
-
-          <Details
-            position="Teaching Assistant"
-            company="MIT"
-            time="Fall 2018"
-            address="Massachusetts Ave, Cambridge, MA."
-            work="Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-            and graded exams and assignments."
+            position="Intern"
+            company="Devtown"
+            time="2023"
+            address="Andhra Pradesh, India."
+            work="Demonstrated strong problem-solving skills, identifying challenges and finding creative solutions to overcome them. Proficiently identified and resolved technical issues and challenges during projects at Devtown, utilizing analytical skills and technical expertise to ensure smooth development and deployment processes."
           />
         </ul>
       </div>
