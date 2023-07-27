@@ -47,7 +47,7 @@ const Education = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light  md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        {/* <ul className="w-full flex-col items-center justify-between ml-4 xs:ml-2"> */}
+        <ul className="w-full flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
             type="Bachelor Of Technology In Electronics and Communication"
             time="2021-2024"
@@ -60,13 +60,14 @@ const Education = () => {
             place="VSM College of Engineering, Ramachandrapuram, AP."
             info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
-        
+
           <Details
             type="Secondary School Education of Secondary School Certification"
             time="2017-2018"
             place="Muncipal Town High School, Rajahmundry, AP."
             info="Relavant courses included Physical Education, MS Office."
           />
+        </ul>
       </div>
     </div>
   );
