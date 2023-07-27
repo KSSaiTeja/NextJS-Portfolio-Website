@@ -48,7 +48,7 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor of Technology"
+            type="Bachelor of Technology in Electronics and Communication"
             time="2021-2024"
             place="Raghu Engineering College, Visakhapatnam."
             info="Electronics and Communication Engineering (ECE)."
