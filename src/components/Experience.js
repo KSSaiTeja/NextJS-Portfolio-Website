@@ -55,12 +55,14 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position="Software Engineer"
-            company="Google"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                 search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Intern"
+            company="Google Developers Group"
+            time="2022"
+            address="Andhra Pradesh, India"
+            work="
+            Working with Google Developers Group was an incredible experience for me. Being associated with Google, one of the leading tech companies globally, added immense credibility to my profile.
+            I had the privilege to work on some exciting projects during my GDG internship. From ideation to implementation, I contributed to projects that had a positive impact within the tech community.
+            "
           />
 
           <Details
