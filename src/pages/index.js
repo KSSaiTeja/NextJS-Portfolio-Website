@@ -15,6 +15,13 @@ export default function Home() {
       <Head>
         <title>K S Sai Teja&apos;s | Portfolio</title>
         <meta name="description" content="Built by K S Sai Teja" />
+        <meta property="og:title" content="K S Sai Teja" />
+        <meta property="og:description" content="Built by K S Sai Teja" />
+        <meta property="og:url" content="https://kssaiteja.me/" />
+        <meta
+          property="og:image"
+          content="/social.png"
+        />
         <link rel="icon" href="../../public/favicon.ico" type="image/x-icon" />
       </Head>
       <TransitionEffect />
