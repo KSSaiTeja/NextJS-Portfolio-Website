@@ -5,7 +5,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+
+import hyperflix from "../../public/images/projects/hyperflix.jpg";
+import AiTextEditor from "../../public/images/projects/AiTextEditor.jpg";
+import Portfolio from "../../public/images/projects/3dPortfolio.jpg";
+import WeatherApp from "../../public/images/projects/WeatherApp.jpg";
+import TypingTest from "../../public/images/projects/TypingTest.jpg";
+import ToDoApp from "../../public/images/projects/ToDoApp.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -43,7 +49,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
+        <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+          {summary}
+        </p>
         <div className="mt-2 flex items-center ">
           <Link className="w-10" href={github} target="_blank">
             <GithubIcon />
@@ -87,7 +95,9 @@ const Project = ({ title, type, img, link, github }) => {
           href={link}
           target="_blank"
         >
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl ">{title}</h2>
+          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl ">
+            {title}
+          </h2>
         </Link>
         <div className="mt-2 flex items-center justify-between w-full">
           <Link
@@ -124,62 +134,63 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
+                img={hyperflix}
+                title="HyperFlix | Ad Free Entertainment platform"
+                summary="Ad-Free Experience: Enjoy videos without interruptions from advertisements.
+                User-Friendly Interface: The platform is designed with simplicity in mind, making it easy for both content creators and viewers to navigate and use."
+                link="https://hyperflix.kssaiteja.me/"
+                github="https://github.com/KSSaiTeja/HyperFlix"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
+                img={AiTextEditor}
+                title="Ai Text Editor"
+                summary="This is a web app designed to empower and inspire creative writers by combining the power of artificial intelligence with the art of storytelling. By using this, users can tap into the vast capabilities of AI to enhance their writing process, generate ideas, and receive personalized suggestions to improve their creative works."
+                link="https://github.com/KSSaiTeja/AI-TextEditor"
+                github="https://github.com/KSSaiTeja/AI-TextEditor"
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 h-max sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                img={Portfolio}
+                title="Portfolio Website using ThreeJS"
+                summary="portfolio website using threejs"
+                link="https://portfolio.kssaiteja.me"
+                github="https://github.com/KSSaiTeja/portfolio-3d"
+                type="Portfolio Website"
               />
             </div>
             <div className="col-span-12 sm:col-span-12">
               <FeaturedProject
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
+                img={WeatherApp}
+                title="ClimaScope | Full Stack Weather Application"
+                summary="Led the development of ClimaScope, using Next.js, Weather API, and TailwindCSS, and it provides real-time weather updates, accurate forecasts, and customized notifications for your location."
+                link="https://github.com/KSSaiTeja/Weather-App-Omnify"
+                github="https://github.com/KSSaiTeja/Weather-App-Omnify"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                img={TypingTest}
+                title="Typing Tester using HTML, CSS & JS"
+                summary="Typing Tester using HTML, CSS & JS"
+                link="https://github.com/KSSaiTeja/TypingTest"
+                github="https://github.com/KSSaiTeja/TypingTest"
+                type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                img={ToDoApp}
+                title="ToDo web app"
+                summary="ToDo web app"
+                link="https://github.com/KSSaiTeja/ToDoApp"
+                github="https://github.com/KSSaiTeja/ToDoApp"
+                type="Project"
               />
             </div>
           </div>
