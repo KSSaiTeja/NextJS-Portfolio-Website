@@ -4,11 +4,11 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/article1.jpg";
-import article2 from "../../public/images/articles/article2.png";
-import article3 from "../../public/images/articles/article3.png";
-import article4 from "../../public/images/articles/article4.jpg";
-import article5 from "../../public/images/articles/article5.png";
+import komodor from "../../public/images/articles/Komodor.png";
+import productivity from "../../public/images/articles/productivity.png";
+import chatgpt from "../../public/images/articles/chatgpt.png";
+import foodRegime from "../../public/images/articles/foodRegime.jpg";
+import dietplan from "../../public/images/articles/dietplan.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -119,19 +119,19 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="/"
-              img={article1}
+              title="An overview of Komodor: Its provisions for Kubernetes explained differently."
+              summary="
+              Komodor, introduced in 2020, is a Kubernetes tool for resource management, monitoring, and incident alerting. It offers three pricing tiers, including a freemium option, and is compatible with Kubernetes 1.16 and above. Komodor's user-friendly interface simplifies cluster management, making it valuable for development teams seeking to streamline operations and troubleshoot effectively."
+              time="2 min read"
+              link="https://medium.com/@KSSaiTeja/an-overview-of-komodor-its-provisions-for-kubernetes-explained-differently-26f79083cc7"
+              img={komodor}
             />
             <FeaturedArticle
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link="/"
-              img={article2}
-              
+              title="Boosting Productivity: Best Practices and Hacks for Success"
+              summary="emphasizes the importance of productivity across various aspects of life and offers practical advice to enhance it. Key practices include setting clear goals, prioritizing tasks, and managing time efficiently. Productivity hacks such as the Two-Minute Rule and Time Blocking are also highlighted. Ultimately, adopting a holistic approach to productivity through mindfulness, delegation, and a healthy lifestyle is encouraged for long-term success."
+              time="3 min read"
+              link="https://blog.kssaiteja.me/boosting-productivity-best-practices-and-hacks-for-success"
+              img={productivity}
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
@@ -139,36 +139,24 @@ const articles = () => {
           </h2>
           <ul>
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
+              title="ChatGPT: Revolutionising Conversational AI with GPT-3.5"
+              date="June 24, 2022"
+              link="https://medium.com/@KSSaiTeja/chatgpt-revolutionising-conversational-ai-with-gpt-3-5-9fec08395a6a"
+              img={chatgpt}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article4}
+              title="The importance of a workout regime to check diabetes"
+              date="Nov 13, 2022"
+              link="https://medium.com/@KSSaiTeja/the-importance-of-a-workout-regime-to-check-diabetes-a1ef75cb5e9e"
+              img={foodRegime}
             />
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article5}
+              title="Top diet plans you should follow for healthy life style."
+              date="Nov 08, 2022"
+              link="https://medium.com/@KSSaiTeja/top-diet-plans-you-should-follow-for-healthy-life-style-25905bea1e5f"
+              img={dietplan}
             />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
+            {/*<Article
               title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
               date="June 22, 2023"
               link="/"
@@ -186,6 +174,18 @@ const articles = () => {
               link="/"
               img={article3}
             />
+            <Article
+              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              date="June 22, 2023"
+              link="/"
+              img={article3}
+            />
+            <Article
+              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              date="June 22, 2023"
+              link="/"
+              img={article3} // need to add these whenever created a new article
+            /> */}
           </ul>
         </Layout>
       </main>
