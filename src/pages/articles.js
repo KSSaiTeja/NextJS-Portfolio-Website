@@ -9,6 +9,8 @@ import productivity from "../../public/images/articles/productivity.png";
 import chatgpt from "../../public/images/articles/chatgpt.png";
 import foodRegime from "../../public/images/articles/foodRegime.jpg";
 import dietplan from "../../public/images/articles/dietplan.jpg";
+import kvsd from "../../public/images/articles/kvsd.png";
+import techblog from "../../public/images/articles/techblog.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -138,6 +140,36 @@ const articles = () => {
             All Articles
           </h2>
           <ul>
+            {/*<Article
+              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              date="June 22, 2023"
+              link="/"
+              img={article3}
+            />
+            <Article
+              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              date="June 22, 2023"
+              link="/"
+              img={article3}
+            />
+            <Article
+              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+              date="June 22, 2023"
+              link="/"
+              img={article3} // need to add these whenever created a new article
+            /> */}
+            <Article
+              title="🐳 Docker vs. Kubernetes: Unpacking Containerization Orchestration!"
+              date="Aug 21, 2023"
+              link="https://blog.kssaiteja.me/docker-vs-kubernetes"
+              img={kvsd}
+            />
+            <Article
+              title="Reflecting on the First Half of 2023: Celebrating Achievements and Fueling Motivation"
+              date="Aug 20, 2023"
+              link="https://blog.kssaiteja.me/reflecting-on-the-first-half-of-2023-celebrating-achievements-and-fueling-motivation"
+              img={techblog}
+            />
             <Article
               title="ChatGPT: Revolutionising Conversational AI with GPT-3.5"
               date="June 24, 2022"
@@ -156,36 +188,6 @@ const articles = () => {
               link="https://medium.com/@KSSaiTeja/top-diet-plans-you-should-follow-for-healthy-life-style-25905bea1e5f"
               img={dietplan}
             />
-            {/*<Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3} // need to add these whenever created a new article
-            /> */}
           </ul>
         </Layout>
       </main>
