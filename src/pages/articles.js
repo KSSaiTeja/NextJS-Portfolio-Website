@@ -10,7 +10,7 @@ import chatgpt from "../../public/images/articles/chatgpt.png";
 import foodRegime from "../../public/images/articles/foodRegime.jpg";
 import dietplan from "../../public/images/articles/dietplan.jpg";
 import kvsd from "../../public/images/articles/kvsd.png";
-import techblog from "../../public/images/articles/techblog.png";
+import techblog from "../../public/images/articles/techblog.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
