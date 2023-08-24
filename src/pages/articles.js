@@ -11,6 +11,7 @@ import foodRegime from "../../public/images/articles/foodRegime.jpg";
 import dietplan from "../../public/images/articles/dietplan.jpg";
 import kvsd from "../../public/images/articles/kvsd.png";
 import techblog from "../../public/images/articles/techblog.jpg";
+import kubernetes from "../../public/images/articles/kubernetes.png"
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -151,13 +152,14 @@ const articles = () => {
               date="June 22, 2023"
               link="/"
               img={article3}
-            />
+               // need to add these whenever created a new article
+            />*/}
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3} // need to add these whenever created a new article
-            /> */}
+              title="Kubernetes Architecture and Components: An In-Depth Overview"
+              date="Aug 25, 2023"
+              link="https://blog.kssaiteja.me/kubernetes-architecture-and-components"
+              img={kubernetes}
+            /> 
             <Article
               title="🐳 Docker vs. Kubernetes: Unpacking Containerization Orchestration!"
               date="Aug 21, 2023"
