@@ -158,7 +158,7 @@ const projects = () => {
                 img={Portfolio}
                 title="Portfolio Website using ThreeJS"
                 summary="portfolio website using threejs"
-                link="https://portfolio.kssaiteja.me"
+                link="https://karthikeya.me"
                 github="https://github.com/KSSaiTeja/portfolio-3d"
                 type="Portfolio Website"
               />
