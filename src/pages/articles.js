@@ -12,6 +12,7 @@ import dietplan from "../../public/images/articles/dietplan.jpg";
 import kvsd from "../../public/images/articles/kvsd.png";
 import techblog from "../../public/images/articles/techblog.jpg";
 import kubernetes from "../../public/images/articles/kubernetes.png"
+import devops from "../../public/images/articles/devops.png"
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -153,13 +154,19 @@ const articles = () => {
               link="/"
               img={article3}
                // need to add these whenever created a new article
-            />*/}
-            <Article
-              title="Kubernetes Architecture and Components: An In-Depth Overview"
-              date="Aug 25, 2023"
-              link="https://blog.kssaiteja.me/kubernetes-architecture-and-components"
-              img={kubernetes}
-            /> 
+              />*/}
+              <Article
+                title="Navigating the DevOps Roadmap: A Comprehensive Guide"
+                date="Sep 02, 2023"
+                link="https://blog.kssaiteja.me/navigating-the-devops-roadmap"
+                img={devops}
+              /> 
+              <Article
+                title="Kubernetes Architecture and Components: An In-Depth Overview"
+                date="Aug 25, 2023"
+                link="https://blog.kssaiteja.me/kubernetes-architecture-and-components"
+                img={kubernetes}
+              /> 
             <Article
               title="🐳 Docker vs. Kubernetes: Unpacking Containerization Orchestration!"
               date="Aug 21, 2023"
