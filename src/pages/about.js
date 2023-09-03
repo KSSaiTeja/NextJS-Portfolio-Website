@@ -39,7 +39,7 @@ const about = () => {
     <>
       <Head>
         <title>K S Sai Teja | About</title>
-        <meta name="description" content="any" />
+        <meta name="About page" content="all about my self and my achievements and skills" />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light ">

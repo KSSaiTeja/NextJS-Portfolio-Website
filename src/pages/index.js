@@ -20,7 +20,7 @@ export default function Home() {
         <meta property="og:url" content="https://kssaiteja.me/" />
         <meta
           property="og:image"
-          content="/social.png"
+          content="../../social.png"
         />
         <link rel="icon" href="../../public/favicon.ico" type="image/x-icon" />
       </Head>
@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={test}
                 alt="profile-picture"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="w-full h-auto lg:hidden md:inline-block md:w-full rounded-md"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
