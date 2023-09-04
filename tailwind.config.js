@@ -13,10 +13,13 @@ module.exports = {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
       colors: {
-        dark: "#1b1b1b",
+        dark: "#000000",
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
+        stripe1: "#393b3b",
+        stripe2: "#6a6b6b",
+        stripe3: "#a2a3a3"
       },
       animation: {
         "spin-slow": "spin 9s linear infinite",

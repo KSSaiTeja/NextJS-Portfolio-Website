@@ -5,19 +5,17 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
-import hyperflix from "../../public/images/projects/hyperflix.jpg";
-import AiTextEditor from "../../public/images/projects/AiTextEditor.jpg";
-import Portfolio from "../../public/images/projects/3dPortfolio.jpg";
-import WeatherApp from "../../public/images/projects/WeatherApp.jpg";
-import TypingTest from "../../public/images/projects/TypingTest.jpg";
-import ToDoApp from "../../public/images/projects/ToDoApp.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
+import LinkFree from "../../public/images/opensource/LinkFree.png";
+import Focusly1 from "../../public/images/opensource/Focusly1.png";
+import BingRewards from "../../public/images/opensource/BingRewards.png";
+import Focusly2 from "../../public/images/opensource/Focusly2.png";
+
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedContribution = ({ type, title, summary, img, link, github }) => {
   return (
     <article className="w-full flex items-center justify-between relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 rounded-br-2xl dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light  xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]" />
@@ -61,7 +59,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             href={link}
             target="_blank"
           >
-            Visit Project
+            Visit Repository
           </Link>
         </div>
       </div>
@@ -69,7 +67,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   );
 };
 
-const Project = ({ title, type, img, link, github }) => {
+const Contribution = ({ title, type, img, link, github }) => {
   return (
     <article className="w-full flex flex-col items-center justify-between rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4 ">
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] sm:h-[102%] xs:rounded-[1.5rem]" />
@@ -101,11 +99,11 @@ const Project = ({ title, type, img, link, github }) => {
         </Link>
         <div className="mt-2 flex items-center justify-between w-full">
           <Link
-            className="text-lg font-semibold underline md:text-base "
+            className="text-lg font-semibold hover:underline md:text-base "
             href={link}
             target="_blank"
           >
-            Visit
+            Visit Repo
           </Link>
           <Link className="w-8 md:w-6" href={github} target="_blank">
             <GithubIcon />
@@ -116,11 +114,11 @@ const Project = ({ title, type, img, link, github }) => {
   );
 };
 
-const projects = () => {
+const contributions = () => {
   return (
     <>
       <Head>
-        <title>K S Sai Teja | Projects</title>
+        <title>K S Sai Teja | Opensource</title>
         <meta name="description" content="any" />
       </Head>
       <TransitionEffect />
@@ -128,69 +126,48 @@ const projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
-            text="Imagination Trumps Knowledge!"
+            text="Empower through Open Source Innovation!"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
-              <FeaturedProject
-                img={hyperflix}
-                title="HyperFlix | Ad Free Entertainment platform"
-                summary="Ad-Free Experience: Enjoy videos without interruptions from advertisements.
-                User-Friendly Interface: The platform is designed with simplicity in mind, making it easy for both content creators and viewers to navigate and use."
-                link="https://hyperflix.kssaiteja.me/"
-                github="https://github.com/KSSaiTeja/HyperFlix"
-                type="Featured Project"
+              <FeaturedContribution
+                img={LinkFree}
+                title="BioDrop | An awesome platfrom to share our social links"
+                summary="My contribution to the Linkfree project has been accepted and merged. Thank you 🎉  to the amazing community for the support. Together, we're building a better open-source future"
+                github="https://github.com/EddieHubCommunity/BioDrop/pull/8669"
+                link="https://github.com/EddieHubCommunity/BioDrop"
+                type="Featured Contribution"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project
-                img={AiTextEditor}
-                title="Ai Text Editor"
-                summary="This is a web app designed to empower and inspire creative writers by combining the power of artificial intelligence with the art of storytelling. By using this, users can tap into the vast capabilities of AI to enhance their writing process, generate ideas, and receive personalized suggestions to improve their creative works."
-                link="https://github.com/KSSaiTeja/AI-TextEditor"
-                github="https://github.com/KSSaiTeja/AI-TextEditor"
-                type="Featured Project"
+              <Contribution
+                img={Focusly1}
+                title="Focusly App"
+                summary=""
+                github="https://github.com/Utkarshn10/Focusly/pull/102"
+                link="https://github.com/Utkarshn10/Focusly"
+                type="Contribution"
               />
             </div>
             <div className="col-span-6 h-max sm:col-span-12">
-              <Project
-                img={Portfolio}
-                title="Portfolio Website using ThreeJS"
-                summary="portfolio website using threejs"
-                link="https://karthikeya.me"
-                github="https://github.com/KSSaiTeja/portfolio-3d"
-                type="Portfolio Website"
+              <Contribution
+                img={Focusly2}
+                title="Focusly App"
+                summary=""
+                link="https://github.com/Utkarshn10/Focusly"
+                github="https://github.com/Utkarshn10/Focusly/pull/104"
+                type="Contribution"
               />
             </div>
             <div className="col-span-12 sm:col-span-12">
-              <FeaturedProject
-                img={WeatherApp}
-                title="ClimaScope | Full Stack Weather Application"
-                summary="Led the development of ClimaScope, using Next.js, Weather API, and TailwindCSS, and it provides real-time weather updates, accurate forecasts, and customized notifications for your location."
-                link="https://github.com/KSSaiTeja/Weather-App-Omnify"
-                github="https://github.com/KSSaiTeja/Weather-App-Omnify"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                img={TypingTest}
-                title="Typing Tester using HTML, CSS & JS"
-                summary="Typing Tester using HTML, CSS & JS"
-                link="https://github.com/KSSaiTeja/TypingTest"
-                github="https://github.com/KSSaiTeja/TypingTest"
-                type="Project"
-              />
-            </div>
-            <div className="col-span-6 h-fit sm:col-span-12">
-              <Project
-                img={ToDoApp}
-                title="ToDo web app"
-                summary="ToDo web app"
-                link="https://github.com/KSSaiTeja/ToDoApp"
-                github="https://github.com/KSSaiTeja/ToDoApp"
-                type="Project"
+              <FeaturedContribution
+                img={BingRewards}
+                title="Microsoft | Bing Rewards"
+                summary="My contribution to Microsoft Bing Rewards has been accepted and merged. 🎉 Grateful for the opportunity to collaborate with the incredible team at @Microsoft. Let's continue to shape the future of search and rewards!"
+                github="https://github.com/microsoft-farmer/bing-rewards/pull/9"
+                link="https://github.com/microsoft-farmer/bing-rewards"
+                type="Featured Contribution"
               />
             </div>
           </div>
@@ -200,4 +177,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default contributions;
