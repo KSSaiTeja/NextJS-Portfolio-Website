@@ -29,7 +29,7 @@ const CustomLink = ({ href, title, className = "" }) => {
   );
 };
 
-const CustomMobileLink = ({ href, title, className = "", toggle }) => {
+const CustomMobileLink = ({ href, title, className = "", toggle, target="_blank" }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -40,6 +40,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     <button
       href={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
+      target={target}
       onClick={handleClick}
     >
       {title}
@@ -90,16 +91,18 @@ const NavBar = () => {
         className="w-full flex justify-between items-center lg:hidden"
       >
         <nav>
-          <CustomLink href="/" title="Home" className="mr-4 " />
+          <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4 " />
           <CustomLink href="/projects" title="Projects" className="mx-4 " />
           <CustomLink href="/articles" title="Articles" className="mx-4 " />
-          <CustomLink href="/opensource" title="Opensource" className="ml-4 " />
+          <CustomLink href="/opensource" title="Opensource" className="mx-4" />
+          <CustomLink href="https://blog.kssaiteja.me" title="Blog" className="ml-4 font-extrabold cursor-pointer"/>
+
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://twitter.com"
+            href="https://twitter.com/saitej8262"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -199,6 +202,12 @@ const NavBar = () => {
               href="/opensource"
               title="Opensource"
               className=""
+              toggle={handleClick}
+            />
+            <CustomMobileLink
+              href="https://blog.kssaiteja.me"
+              title="Blog"
+              className="cursor-pointer font-extrabold"
               toggle={handleClick}
             />
           </nav>
