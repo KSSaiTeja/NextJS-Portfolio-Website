@@ -32,7 +32,7 @@ export default function Home() {
               <Image
                 src={test}
                 alt="profile-picture"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full rounded-md"
+                className="w-4/5 h-auto lg:hidden md:inline-block md:w-full rounded-xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
