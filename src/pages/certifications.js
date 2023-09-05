@@ -1,4 +1,4 @@
-"use client";
+
 
 import { LinkedInIcon } from "@/components/Icons";
 
