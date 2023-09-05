@@ -10,12 +10,10 @@ const certifications = () => {
         <hr />
       </h1>
 
-      <div className="flex items-center">
-        <span className="mr-2">
-          Meanwhile check <LinkedInIcon className="w-6 h-6" /> profile
-        </span>
+      <div style={display=inline-block}>
+        Meanwhile check <LinkedInIcon className="w-6 h-6" /> profile
       </div>
-      
+
     </div>
   );
 };
