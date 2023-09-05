@@ -21,7 +21,7 @@ const Footer = () => {
           </span>
           by&nbsp;
           <Link
-            href="/"
+            href="https://blog.kssaiteja.me"
             className="hover:underline underline-offset-2"
           >
             K S Sai Teja{" "}
