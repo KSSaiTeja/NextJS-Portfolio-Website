@@ -8,7 +8,7 @@ const certifications = () => {
         <hr className="my-4" />
       </h1>
 
-      <div class="inline-flex items-center text-3xl">
+      <div class="inline-flex items-center text-3xl hover:underline underline-offset-2">
         Meanwhile check &nbsp;{" "}
         <a href="https://linkedin.com/in/kssaiteja" target="_blank">
           <LinkedInIcon class="w-6 h-6 cursor-pointer hover:scale-125" />
