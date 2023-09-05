@@ -214,6 +214,12 @@ const NavBar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
+              href="/certifications"
+              title="Certifications"
+              className=""
+              toggle={handleClick}
+            />
+            <CustomMobileLink
               href="https://blog.kssaiteja.me"
               title="Blog"
               className="cursor-pointer font-extrabold"
