@@ -29,7 +29,13 @@ const CustomLink = ({ href, title, className = "" }) => {
   );
 };
 
-const CustomMobileLink = ({ href, title, className = "", toggle, target="_blank" }) => {
+const CustomMobileLink = ({
+  href,
+  title,
+  className = "",
+  toggle,
+  target = "_blank",
+}) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -96,8 +102,11 @@ const NavBar = () => {
           <CustomLink href="/projects" title="Projects" className="mx-4 " />
           <CustomLink href="/articles" title="Articles" className="mx-4 " />
           <CustomLink href="/opensource" title="Opensource" className="mx-4" />
-          <CustomLink href="https://blog.kssaiteja.me" title="Blog" className="ml-4 font-extrabold cursor-pointer"/>
-
+          <CustomLink
+            href="/certificates"
+            title="Certifications"
+            className="ml-4"
+          />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
