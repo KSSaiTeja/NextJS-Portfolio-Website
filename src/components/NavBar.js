@@ -103,7 +103,7 @@ const NavBar = () => {
           <CustomLink href="/articles" title="Articles" className="mx-4 " />
           <CustomLink href="/opensource" title="Opensource" className="mx-4" />
           <CustomLink
-            href="/certificates"
+            href="/certifications"
             title="Certifications"
             className="ml-4"
           />
