@@ -1,5 +1,3 @@
-
-
 import { LinkedInIcon } from "@/components/Icons";
 
 const certifications = () => {
@@ -7,7 +5,7 @@ const certifications = () => {
     <div className="flex flex-col justify-center items-center h-screen">
       <h1 className="text-center font-bold text-4xl">
         My certifications will be uploaded soon..
-        <hr className="my-4"/>
+        <hr className="my-4" />
       </h1>
 
       <div class="inline-flex items-center text-3xl">
