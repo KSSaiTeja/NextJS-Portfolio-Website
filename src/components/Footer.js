@@ -21,18 +21,18 @@ const Footer = () => {
           </span>
           by&nbsp;
           <Link
-            href="https://blog.kssaiteja.me"
+            href="/"
             className="hover:underline underline-offset-2"
           >
             K S Sai Teja{" "}
           </Link>
         </div>
         <Link
-          href="mailto:saitej4865@gmail.com"
+          href="https://blog.kssaiteja.me"
           target="_blank"
-          className="underline underline-offset-2"
+          className="hover:underline underline-offset-2"
         >
-          Say Hello Here...
+          Checkout my <span className="font-bold text-primary dark:text-primaryDark">Blog</span> here
         </Link>
       </Layout>
     </footer>
