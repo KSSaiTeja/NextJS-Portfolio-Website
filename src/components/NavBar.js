@@ -94,7 +94,7 @@ const NavBar = () => {
 
       <div
         id="desktop-nav"
-        className="w-full flex justify-between items-center lg:hidden md:hidden sm:hidden"
+        className="w-full flex justify-between items-center lg:hidden"
       >
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
