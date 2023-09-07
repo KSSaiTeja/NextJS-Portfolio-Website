@@ -11,8 +11,8 @@ import TransitionEffect from "@/components/TransitionEffect";
 // certificates import statements
 
 
-import sampleCertificate from "../../public/images/opensource/samplecert.png";
-import sampleCertificate from "../../public/images/opensource/samplecert.png";
+import sampleCertificate from "../../public/images/certificates/samplecert.png";
+import sampleCertificate from "../../public/images/certificates/samplecert.png";
 
 
 const FramerImage = motion(Image);
