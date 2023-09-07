@@ -12,7 +12,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 
 import sampleCertificate from "../../public/images/certificates/samplecert.png";
-import sampleCertificate from "../../public/images/certificates/samplecert.png";
+
 
 
 const FramerImage = motion(Image);
@@ -83,7 +83,7 @@ const Certifications = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-6 sm:col-span-12">
               <Certification
-                img={Focusly1}
+                img={sampleCertificate}
                 title="Focusly App"
                 summary=""
                 github="https://github.com/Utkarshn10/Focusly/pull/102"
@@ -93,7 +93,7 @@ const Certifications = () => {
             </div>
             <div className="col-span-6 h-max sm:col-span-12">
               <Certification
-                img={Focusly2}
+                img={sampleCertificate}
                 title="Focusly App"
                 summary=""
                 link="https://github.com/Utkarshn10/Focusly"
