@@ -11,6 +11,10 @@ import TransitionEffect from "@/components/TransitionEffect";
 // certificates import statements
 
 
+import Focusly1 from "../../public/images/opensource/Focusly1.png";
+import Focusly2 from "../../public/images/opensource/Focusly2.png";
+
+
 const FramerImage = motion(Image);
 
 
