@@ -13,6 +13,7 @@ import kvsd from "../../public/images/articles/kvsd.png";
 import techblog from "../../public/images/articles/techblog.jpg";
 import kubernetes from "../../public/images/articles/kubernetes.png"
 import devops from "../../public/images/articles/devops.png"
+import kamaji from "../../public/images/articles/kamaji.png"
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -147,14 +148,13 @@ const articles = () => {
               date="June 22, 2023"
               link="/"
               img={article3}
-            />
+            />*/}
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-               // need to add these whenever created a new article
-              />*/}
+              title="Kamaji: Scaling Kubernetes with Ease"
+              date="Sep 07, 2023"
+              link="https://blog.kssaiteja.me/kamaji-scaling-kubernetes-with-ease"
+              img={kamaji}
+              />
               <Article
                 title="Navigating the DevOps Roadmap: A Comprehensive Guide"
                 date="Sep 02, 2023"
