@@ -8,6 +8,7 @@ import komodor from "../../public/images/articles/Komodor.png";
 import productivity from "../../public/images/articles/productivity.png";
 import chatgpt from "../../public/images/articles/chatgpt.png";
 import foodRegime from "../../public/images/articles/foodRegime.jpg";
+import docker from "../../public/images/articles/docker.png";
 import dietplan from "../../public/images/articles/dietplan.jpg";
 import kvsd from "../../public/images/articles/kvsd.png";
 import techblog from "../../public/images/articles/techblog.jpg";
@@ -149,6 +150,12 @@ const articles = () => {
               link="/"
               img={article3}
             />*/}
+            <Article
+              title="Demystifying Docker Containerization"
+              date="Sep 14, 2023"
+              link="https://blog.kssaiteja.me/demystifying-docker-containerization"
+              img={docker}
+            />
             <Article
               title="Kamaji: Scaling Kubernetes with Ease"
               date="Sep 07, 2023"
