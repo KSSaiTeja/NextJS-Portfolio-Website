@@ -6,15 +6,16 @@ import Link from "next/link";
 import React, { useRef } from "react";
 import komodor from "../../public/images/articles/Komodor.png";
 import productivity from "../../public/images/articles/productivity.png";
+import quantum from "../../public/images/articles/quantum.png";
 import chatgpt from "../../public/images/articles/chatgpt.png";
 import foodRegime from "../../public/images/articles/foodRegime.jpg";
 import docker from "../../public/images/articles/docker.png";
 import dietplan from "../../public/images/articles/dietplan.jpg";
 import kvsd from "../../public/images/articles/kvsd.png";
 import techblog from "../../public/images/articles/techblog.jpg";
-import kubernetes from "../../public/images/articles/kubernetes.png"
-import devops from "../../public/images/articles/devops.png"
-import kamaji from "../../public/images/articles/kamaji.png"
+import kubernetes from "../../public/images/articles/kubernetes.png";
+import devops from "../../public/images/articles/devops.png";
+import kamaji from "../../public/images/articles/kamaji.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -151,6 +152,12 @@ const articles = () => {
               img={article3}
             />*/}
             <Article
+              title="Exploring the Cutting-Edge of Quantum Computing"
+              date="Sep 24, 2023"
+              link="https://blog.kssaiteja.me/exploring-the-cutting-edge-of-quantum-computing"
+              img={quantum}
+            />
+            <Article
               title="Demystifying Docker Containerization"
               date="Sep 14, 2023"
               link="https://blog.kssaiteja.me/demystifying-docker-containerization"
@@ -161,19 +168,19 @@ const articles = () => {
               date="Sep 07, 2023"
               link="https://blog.kssaiteja.me/kamaji-scaling-kubernetes-with-ease"
               img={kamaji}
-              />
-              <Article
-                title="Navigating the DevOps Roadmap: A Comprehensive Guide"
-                date="Sep 02, 2023"
-                link="https://blog.kssaiteja.me/navigating-the-devops-roadmap"
-                img={devops}
-              /> 
-              <Article
-                title="Kubernetes Architecture and Components: An In-Depth Overview"
-                date="Aug 25, 2023"
-                link="https://blog.kssaiteja.me/kubernetes-architecture-and-components"
-                img={kubernetes}
-              /> 
+            />
+            <Article
+              title="Navigating the DevOps Roadmap: A Comprehensive Guide"
+              date="Sep 02, 2023"
+              link="https://blog.kssaiteja.me/navigating-the-devops-roadmap"
+              img={devops}
+            />
+            <Article
+              title="Kubernetes Architecture and Components: An In-Depth Overview"
+              date="Aug 25, 2023"
+              link="https://blog.kssaiteja.me/kubernetes-architecture-and-components"
+              img={kubernetes}
+            />
             <Article
               title="🐳 Docker vs. Kubernetes: Unpacking Containerization Orchestration!"
               date="Aug 21, 2023"
