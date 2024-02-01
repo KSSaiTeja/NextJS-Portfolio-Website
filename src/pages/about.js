@@ -83,8 +83,8 @@ const about = () => {
               </p>
             </div>
 
-            <div className="relative col-span-3 p-8 border-2 border-solid h-max rounded-2xl border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 ">
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light " />
+            <div className="relative col-span-3 p-8 border h-max rounded-2xl bg-light dark:bg-dark xl:col-span-4 md:order-1 md:col-span-8 ">
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-shadow_light dark:shadow_dark blur-sm dark:blur-lg " />
               <Image
                 src={test}
                 alt="kssaiteja"
