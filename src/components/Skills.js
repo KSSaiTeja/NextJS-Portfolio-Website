@@ -17,7 +17,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = () => {
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-8xl md:mt-32 ">
+      <h2 className="w-full mt-64 font-bold text-center text-8xl md:text-8xl md:mt-32 ">
         Skills
       </h2>
       <div
@@ -30,7 +30,7 @@ const Skills = () => {
       "
       >
         <motion.div
-          className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
+          className="flex items-center justify-center p-8 font-semibold rounded-full cursor-pointer bg-dark text-light shadow-dark dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
           Web
@@ -40,7 +40,7 @@ const Skills = () => {
         <Skill name="JavaScript" x="0vw" y="-12vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NextJS" x="-20vw" y="-15vw" />
-        <Skill name="Flutter" x="32vw" y="-5vw" />
+        <Skill name="Flutter Flow" x="32vw" y="-5vw" />
         <Skill name="Figma" x="0vw" y="-20vw" />
         <Skill name="Firebase" x="-25vw" y="18vw" />
         <Skill name="Web Design" x="20vw" y="-15vw" />

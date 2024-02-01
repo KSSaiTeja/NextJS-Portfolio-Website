@@ -19,7 +19,12 @@ module.exports = {
         primaryDark: "#58E6D9", // 80,230,217
         stripe1: "#393b3b",
         stripe2: "#6a6b6b",
-        stripe3: "#a2a3a3"
+        stripe3: "#a2a3a3",
+        shadow_light: "#E0E4E4",
+        shadow_dark: "#525252",
+        border_dark: "#1A1A1A",
+        article_light: "#E7E9E9",
+        article_dark: "#1B1B1B",
       },
       animation: {
         "spin-slow": "spin 9s linear infinite",

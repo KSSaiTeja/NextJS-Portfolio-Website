@@ -17,13 +17,13 @@ const Details = ({ type, time, place, info }) => {
         className="flex-shrink-0" // Add this class to prevent it from affecting the layout
       >
         <div>
-          <h3 className="capitalize justify-between font-bold text-2xl sm:text-xl xs:text-lg">
+          <h3 className="justify-between text-2xl font-bold capitalize sm:text-xl xs:text-lg">
             {type}
           </h3>
-          <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm ">
+          <span className="font-medium capitalize text-dark/75 dark:text-light/75 xs:text-sm ">
             {time} | {place}
           </span>
-          <p className=" font-medium  w-full md:text-sm">{info}</p>
+          <p className="w-full font-medium md:text-sm">{info}</p>
         </div>
       </motion.div>
     </li>
@@ -38,7 +38,7 @@ const Education = () => {
   });
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+      <h2 className="w-full mb-32 font-bold text-center text-8xl md:text-6xl xs:text-4xl md:mb-16">
         Education
       </h2>
 
@@ -47,7 +47,7 @@ const Education = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light  md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
-        <ul className="w-full flex-col items-center justify-between ml-4 xs:ml-2">
+        <ul className="flex-col items-center justify-between w-full ml-4 xs:ml-2">
           <Details
             type="Bachelor Of Technology In Electronics and Communication"
             time="2021-2024"
@@ -62,7 +62,7 @@ const Education = () => {
           />
 
           <Details
-            type="Secondary School Education of Secondary School Certification"
+            type="Secondary School Education"
             time="2017-2018"
             place="Muncipal Town High School, Rajahmundry, AP."
             info="Relavant courses included Physical Education, MS Office."

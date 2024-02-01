@@ -16,6 +16,7 @@ import techblog from "../../public/images/articles/techblog.jpg";
 import kubernetes from "../../public/images/articles/kubernetes.png";
 import devops from "../../public/images/articles/devops.png";
 import kamaji from "../../public/images/articles/kamaji.png";
+import beauty from "../../public/images/articles/beauty.jpeg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -67,7 +68,7 @@ const Article = ({ img, title, date, link }) => {
     <motion.li
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
-      className="relative flex items-center justify-between w-full p-4 py-6 my-4 border border-b-4 border-r-4 border-solid rounded-xl bg-light text-dark first:mt-0 border-dark dark:border-light dark:bg-dark dark:text-light sm:flex-col"
+      className="relative flex items-center justify-between w-full p-4 py-6 my-4 border border-b-4 border-r-4 border-solid rounded-xl bg-light text-dark first:mt-0 border-article_light dark:border-article_dark dark:bg-dark dark:text-light sm:flex-col"
     >
       <MovingImage title={title} img={img} link={link} />
       <span className="pl-4 font-semibold text-primary dark:text-primaryDark sm:self-start sm:pl-0 xs:text-sm">
@@ -79,8 +80,8 @@ const Article = ({ img, title, date, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
-    <li className="relative w-full col-span-1 p-4 border border-solid bg-light border-dark rounded-2xl dark:bg-dark dark:border-light">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl " />
+    <li className="relative w-full col-span-1 p-4 border bg-light rounded-2xl dark:bg-dark dark:border-border_dark">
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-shadow_light dark:bg-shadow_dark rounded-br-3xl  blur-sm dark:blur-lg " />
       <Link
         className="inline-block w-full overflow-hidden rounded-lg cursor-pointer"
         href={link}
@@ -145,12 +146,12 @@ const articles = () => {
             All Articles
           </h2>
           <ul>
-            {/*<Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 22, 2023"
-              link="/"
-              img={article3}
-            />*/}
+            <Article
+              title="Beyond Beauty: Crafting a Green Skincare Routine"
+              date="Jan 18, 2024"
+              link="Beyond Beauty: Crafting a Green Skincare Routine"
+              img={beauty}
+            />
             <Article
               title="Exploring the Cutting-Edge of Quantum Computing"
               date="Sep 24, 2023"
