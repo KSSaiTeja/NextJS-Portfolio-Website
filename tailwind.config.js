@@ -17,9 +17,12 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
-        stripe1: "#393b3b",
-        stripe2: "#6a6b6b",
-        stripe3: "#a2a3a3",
+        stripe1: "#e2fdff", // 50% transparency
+        stripe2: "#bfd7ff", // 50% transparency
+        stripe3: "#9bb1ff",
+        stripe1_dark: "#12100e",
+        stripe2_dark: "#30321c",
+        stripe3_dark: "#4a4b2f",
         shadow_light: "#E0E4E4",
         shadow_dark: "#525252",
         border_dark: "#1A1A1A",
@@ -58,22 +61,22 @@ module.exports = {
     screens: {
       "2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
-  
+
       xl: { max: "1279px" },
       // => @media (max-width: 1279px) { ... }
-  
+
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
-  
+
       md: { max: "767px" },
       // => @media (max-width: 767px) { ... }
-  
+
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
-  
+
       xs: { max: "479px" },
       // => @media (max-width: 479px) { ... }
-  },
+    },
   },
   plugins: [],
 };
