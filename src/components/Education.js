@@ -60,9 +60,8 @@ const Education = () => {
             place="VSM College of Engineering, Ramachandrapuram, AP."
             info="Relevant courses included Data Structures and Algorithms, Embedded Systems, Chip Designing etc.."
           />
-
           <Details
-            type="Secondary School Education"
+            type="Secondary School Education under Board of Secondary Education, AP."
             time="2017-2018"
             place="Muncipal Town High School, Rajahmundry, AP."
             info="Relavant courses included Physical Education, MS Office."
