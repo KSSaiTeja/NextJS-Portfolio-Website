@@ -6,10 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-// GIFs
-
-import taskflowgif from "../../public/images/projects/taskflow.gif";
-
 import hyperflix from "../../public/images/projects/hyperflix.jpg";
 import AiTextEditor from "../../public/images/projects/AiTextEditor.jpg";
 import Portfolio from "../../public/images/projects/3dPortfolio.jpg";
