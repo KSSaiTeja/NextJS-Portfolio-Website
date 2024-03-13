@@ -131,7 +131,7 @@ const projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             className="mb-16 lg:!text-3xl sm:mb-8 sm:!text-3xl xs:!text-2xl"
-            text="ImagiImagination Trumps Knowledge!"
+            text="Imagination Trumps Knowledge!"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
