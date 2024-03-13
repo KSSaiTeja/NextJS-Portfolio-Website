@@ -6,6 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+// GIFs
+
+import taskflowgif from "../../public/images/projects/taskflow.gif";
+
 import hyperflix from "../../public/images/projects/hyperflix.jpg";
 import AiTextEditor from "../../public/images/projects/AiTextEditor.jpg";
 import Portfolio from "../../public/images/projects/3dPortfolio.jpg";
@@ -137,7 +141,7 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                img={taskflow}
+                img={taskflowgif}
                 title="TaskFlow | Task Management App"
                 summary="TaskFlow, a full-stack task management app, Users can effortlessly manage tasks with features like real-time updates and secure authentication through JSON Web Tokens. The application ensures data consistency by utilizing a database to store task information"
                 link="https://taskflowpro.vercel.app"

@@ -70,9 +70,9 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
+    <header className="relative z-10 flex items-center justify-between w-full px-32 py-8 font-medium dark:text-light lg:px-16 md:px-12 sm:px-8">
       <button
-        className="flex-col justify-center items-center hidden lg:flex"
+        className="flex-col items-center justify-center hidden lg:flex"
         onClick={handleClick}
       >
         <span
@@ -94,7 +94,7 @@ const NavBar = () => {
 
       <div
         id="desktop-nav"
-        className="w-full flex justify-between items-center lg:hidden"
+        className="flex items-center justify-between w-full lg:hidden"
       >
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
@@ -109,7 +109,7 @@ const NavBar = () => {
           />
         </nav>
 
-        <nav className="flex items-center justify-center flex-wrap">
+        <nav className="flex flex-wrap items-center justify-center">
           <motion.a
             href="https://twitter.com/saitej8262"
             target={"_blank"}
@@ -142,7 +142,7 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 bg-light rounded-full"
+            className="w-6 mx-3 rounded-full bg-light"
           >
             <PinterestIcon />
           </motion.a>
@@ -182,7 +182,7 @@ const NavBar = () => {
           animate={{ scale: 1, opacity: 1 }}
           className="min-w-[70vw] flex flex-col fixed justify-between z-30 items-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
         >
-          <nav className="flex items-center flex-col justify-center">
+          <nav className="flex flex-col items-center justify-center">
             <CustomMobileLink
               href="/"
               title="Home"
@@ -222,12 +222,12 @@ const NavBar = () => {
             <CustomMobileLink
               href="https://blog.kssaiteja.me"
               title="Blog"
-              className="cursor-pointer font-extrabold"
+              className="font-extrabold cursor-pointer"
               toggle={handleClick}
             />
           </nav>
 
-          <nav className="flex items-center justify-center flex-wrap mt-2 ">
+          <nav className="flex flex-wrap items-center justify-center mt-2 ">
             <motion.a
               href="https://twitter.com/saitej8262"
               target={"_blank"}
@@ -242,7 +242,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light dark:bg-dark rounded-full border border-solid border-dark dark:border-light sm:mx-1"
+              className="w-6 mx-3 border border-solid rounded-full bg-light dark:bg-dark border-dark dark:border-light sm:mx-1"
             >
               <GithubIcon />
             </motion.a>
@@ -260,7 +260,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full sm:mx-1"
+              className="w-6 mx-3 rounded-full bg-light sm:mx-1"
             >
               <PinterestIcon />
             </motion.a>
