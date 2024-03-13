@@ -137,7 +137,7 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                img={taskflowgif}
+                img={taskflow}
                 title="TaskFlow | Task Management App"
                 summary="TaskFlow, a full-stack task management app, Users can effortlessly manage tasks with features like real-time updates and secure authentication through JSON Web Tokens. The application ensures data consistency by utilizing a database to store task information"
                 link="https://taskflowpro.vercel.app"
