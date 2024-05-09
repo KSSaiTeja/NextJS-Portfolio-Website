@@ -59,7 +59,7 @@ const about = () => {
               <p className="font-medium">
                 K S Saiteja Kalepu is a dynamic and driven UI/UX Designer with a
                 strong passion for design and front-end development. With a
-                Bachelor's in Electronics and Communication Engineering from
+                Bachelor&apos;s in Electronics and Communication Engineering from
                 Raghu Engineering College and a Diploma in ECE from VSM College
                 of Engineering, K S Saiteja brings a solid foundation in both
                 engineering fundamentals and web development technologies. His
@@ -79,7 +79,7 @@ const about = () => {
                 overall user satisfaction.
               </p>
               <p className="font-medium">
-                In addition to his professional achievements, K S Saiteja's
+                In addition to his professional achievements, K S Saiteja&apos;s
                 extracurricular activities reflect his commitment to continuous
                 learning and innovation, earning accolades in competitive
                 programming, frontend responsive design, and sustainable energy

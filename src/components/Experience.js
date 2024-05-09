@@ -60,8 +60,7 @@ const Experience = () => {
             company="Heamac Healthcare Pvt. Ltd"
             time="2024"
             address="Nagpur, Maharashtra, India."
-            work="Improved UX design proficiency by 30% by actively participating in the UX design cycle and implementing UX
-            best practices and reduced UI bugs by 25% through meticulous attention to detail and swift resolution using Figma."
+            work="Improved UX design proficiency by 30% by actively participating in the UX design cycle and implementing UX best practices and reduced UI bugs by 25% through meticulous attention to detail and swift resolution using Figma."
           />
           <Details
             position="Intern"
@@ -89,7 +88,7 @@ const Experience = () => {
             company="Amazon Web Services"
             time="2022"
             address="Remote"
-            work="Implemented cost-saving measures, resulting in a 35% reduction in cloud infrastructure expenses through optimization and efficient resource management. Contributed to the project's success by streamlining workflows, leading to a 45% improvement in deployment speed and efficiency."
+            work="Implemented cost-saving measures, resulting in a 35% reduction in cloud infrastructure expenses through optimization and efficient resource management. Contributed to the project&apos;s success by streamlining workflows, leading to a 45% improvement in deployment speed and efficiency."
           />
           <Details
             position="Intern"
