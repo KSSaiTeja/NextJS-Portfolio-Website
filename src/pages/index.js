@@ -43,10 +43,7 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:text-5xl sm:text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+              Hello, I'm K S Sai Teja. Following my graduation, I transitioned into a UI/UX designer role, a field I am deeply passionate about as it perfectly blends technology with creativity. I am currently seeking opportunities where I can contribute to innovative and user-centric projects. My engineering background aids in my systematic approach to design, ensuring that I maintain functionality while enhancing user engagement through aesthetic and intuitive interfaces.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link

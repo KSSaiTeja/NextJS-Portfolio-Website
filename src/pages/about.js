@@ -57,29 +57,35 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                Greetings! I&apos;m K S Sai Teja, a dynamic Full Stack Web
-                Developer currently interning at Cognifyz Technologies in
-                Nagpur, Maharashtra. My expertise lies in crafting visually
-                appealing and user-friendly interfaces using HTML, CSS,
-                JavaScript, Python, and AWS. Prior experiences at Coding Raja
-                Technologies and DevTown have sharpened my collaborative web
-                development skills, showcasing a passion for innovation.
+                K S Saiteja Kalepu is a dynamic and driven UI/UX Designer with a
+                strong passion for design and front-end development. With a
+                Bachelor's in Electronics and Communication Engineering from
+                Raghu Engineering College and a Diploma in ECE from VSM College
+                of Engineering, K S Saiteja brings a solid foundation in both
+                engineering fundamentals and web development technologies. His
+                technical proficiency includes expertise in UI/UX design tools
+                such as Figma, Protopie, and Zeplin, as well as front-end
+                languages like HTML and CSS.
               </p>
               <p className="my-4 font-medium">
-                Beyond web development, I delve into computer vision and data
-                visualization, employing Python to solve real-world challenges.
-                Currently pursuing a Bachelor&apos;s degree in Electronics and
-                Communication Engineering at Raghu Engineering College, my
-                academic journey enriches my understanding of embedded systems
-                and robotics. With a freelance background on Fiverr and
-                community engagement as a Microsoft Learn Student Ambassador, I
-                bring a holistic approach to technology.
+                Through his internship experiences at Heamac Healthcare Pvt.
+                Ltd. and Brainquest Consultancy and Training, K S Saiteja has
+                demonstrated his ability to improve UX design proficiency and
+                enhance user engagement metrics through meticulous attention to
+                detail and implementation of best practices. His impressive
+                project portfolio showcases his talent in designing intuitive
+                and visually appealing interfaces, resulting in significant
+                improvements in user retention, mobile conversion rates, and
+                overall user satisfaction.
               </p>
               <p className="font-medium">
-                My vision is to seamlessly integrate web development and
-                electronics engineering, creating innovative solutions that
-                leave a lasting impact. Join me on this exciting journey of
-                technology and innovation!
+                In addition to his professional achievements, K S Saiteja's
+                extracurricular activities reflect his commitment to continuous
+                learning and innovation, earning accolades in competitive
+                programming, frontend responsive design, and sustainable energy
+                solutions. With his exceptional skills and dedication to
+                excellence, K S Saiteja is poised to make significant
+                contributions to any dynamic team in the field of UI/UX design.
               </p>
             </div>
 

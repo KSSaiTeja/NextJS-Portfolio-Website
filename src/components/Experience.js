@@ -53,7 +53,16 @@ const Experience = () => {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px] "
         />
+
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2 ">
+          <Details
+            position="Intern"
+            company="Heamac Healthcare Pvt. Ltd"
+            time="2024"
+            address="Nagpur, Maharashtra, India."
+            work="Improved UX design proficiency by 30% by actively participating in the UX design cycle and implementing UX
+            best practices and reduced UI bugs by 25% through meticulous attention to detail and swift resolution using Figma."
+          />
           <Details
             position="Intern"
             company="Cognifyz Technologies"
